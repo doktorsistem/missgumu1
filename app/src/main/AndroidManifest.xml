@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.missgumus.mobile.missgumus5">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permision.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="missgumus5"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Splash">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Hesap" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".Menubar" />
+        <activity android:name=".Firma" />
+        <activity android:name=".Sepet" />
+        <activity android:name=".hesapgiris" />
+        <activity android:name=".UyeolActivity" />
+        <activity android:name=".IletisimActivity" />
+        <activity android:name=".HesabimActivity" />
+        <activity android:name=".SifreActivity" />
+        <activity android:name=".BossepetActivity" />
+        <activity android:name=".BankaActivity" />
+        <activity android:name=".HavaleActivity" />
+        <activity android:name=".UploadActivity" />
+        <activity android:name=".AdminActivity" />
+        <activity android:name=".KargoActivity" />
+    </application>
+
+</manifest>

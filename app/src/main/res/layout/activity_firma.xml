@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.missgumus.mobile.missgumus5.Firma"
+    tools:layout_editor_absoluteY="81dp">
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="283dp"
+        android:layout_height="62dp"
+        android:layout_marginTop="56dp"
+        android:contentDescription="@string/todo"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/menu"
+        app:srcCompat="@drawable/logo" />
+
+    <Button
+        android:id="@+id/anasayfa"
+        android:layout_width="174dp"
+        android:layout_height="45dp"
+        android:layout_marginBottom="17dp"
+        android:layout_marginTop="16dp"
+        android:background="@android:color/transparent"
+        android:onClick="linkAnasayfa"
+        android:text="Anasayfa"
+        android:textAlignment="viewStart"
+        android:textColor="@color/colorPrimaryDark"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/urunler"
+        app:layout_constraintStart_toStartOf="@+id/imageView4"
+        app:layout_constraintTop_toBottomOf="@+id/imageView4" />
+
+    <Button
+        android:id="@+id/urunler"
+        android:layout_width="175dp"
+        android:layout_height="45dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginTop="8dp"
+        android:background="@android:color/transparent"
+        android:onClick="kategoriLink"
+        android:text="ürünler"
+        android:textAlignment="viewStart"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/iade"
+        app:layout_constraintStart_toStartOf="@+id/anasayfa"
+        app:layout_constraintTop_toBottomOf="@+id/anasayfa" />
+
+    <Button
+        android:id="@+id/iletisim"
+        android:layout_width="175dp"
+        android:layout_height="45dp"
+        android:layout_marginBottom="161dp"
+        android:layout_marginTop="8dp"
+        android:background="@android:color/transparent"
+        android:onClick="iletisimLink"
+        android:text="iletişim"
+        android:textAlignment="viewStart"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/musterihz"
+        app:layout_constraintTop_toBottomOf="@+id/musterihz" />
+
+    <Button
+        android:id="@+id/musterihz"
+        android:layout_width="230dp"
+        android:layout_height="45dp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="8dp"
+        android:background="@android:color/transparent"
+        android:onClick="iletisimLink"
+        android:text="müşteri hizmetleri"
+        android:textAlignment="viewStart"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/iletisim"
+        app:layout_constraintStart_toStartOf="@+id/iade"
+        app:layout_constraintTop_toBottomOf="@+id/iade" />
+
+    <Button
+        android:id="@+id/iade"
+        android:layout_width="175dp"
+        android:layout_height="45dp"
+        android:layout_marginBottom="16dp"
+        android:layout_marginTop="8dp"
+        android:background="@android:color/transparent"
+        android:onClick="iletisimLink"
+        android:text="iade ve değişiklik"
+        android:textAlignment="viewStart"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/musterihz"
+        app:layout_constraintStart_toStartOf="@+id/urunler"
+        app:layout_constraintTop_toBottomOf="@+id/urunler" />
+
+    <include
+        android:id="@+id/menu"
+        layout="@layout/activity_menubar" />
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:background="@android:color/transparent"
+        app:layout_constraintStart_toStartOf="@+id/iletisim"
+        app:layout_constraintTop_toBottomOf="@+id/iletisim"
+        app:srcCompat="@drawable/face" />
+
+    <ImageButton
+        android:id="@+id/imageButton3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="32dp"
+        android:background="@android:color/transparent"
+        app:layout_constraintStart_toEndOf="@+id/imageButton"
+        app:layout_constraintTop_toBottomOf="@+id/iletisim"
+        app:srcCompat="@drawable/instagram" />
+
+    <ImageButton
+        android:id="@+id/imageButton4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="32dp"
+        android:background="@android:color/transparent"
+        app:layout_constraintStart_toEndOf="@+id/imageButton3"
+        app:layout_constraintTop_toBottomOf="@+id/iletisim"
+        app:srcCompat="@drawable/twitter" />
+
+    <ImageButton
+        android:id="@+id/imageButton5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="32dp"
+        android:background="@android:color/transparent"
+        app:layout_constraintStart_toEndOf="@+id/imageButton4"
+        app:layout_constraintTop_toBottomOf="@+id/iletisim"
+        app:srcCompat="@drawable/whatsapp" />
+
+
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "415520277492",
+    "firebase_url": "https://missgumus5.firebaseio.com",
+    "project_id": "missgumus5",
+    "storage_bucket": "missgumus5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:415520277492:android:79eee19f55c63e10",
+        "android_client_info": {
+          "package_name": "com.missgumus.mobile.missgumus5"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "415520277492-md82aov1eda3cs015q09jemc5mop2cg2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.missgumus.mobile.missgumus5",
+            "certificate_hash": "7707719fbd50c9d778443b5564edf358b0dc9cb1"
+          }
+        },
+        {
+          "client_id": "415520277492-4pje32nt0vnd99oiaej487rugv68i3ob.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCaBwlmk5XkiThwXWFtOTithF8RlUF_RYc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "415520277492-4pje32nt0vnd99oiaej487rugv68i3ob.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

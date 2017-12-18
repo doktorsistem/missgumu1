@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Miss Gümüş</string>
+    <string name="home">TODO</string>
+    <string name="list">TODO</string>
+    <string name="sepet">TODO</string>
+    <string name="hesap">TODO</string>
+    <string name="hesap_sayfasi">Hesap sayfasi</string>
+    <string name="ana_sayfa">ana sayfa</string>
+    <string name="logo">logo</string>
+    <string name="profil">profil</string>
+    <string name="uye_ol">üye ol</string>
+    <string name="uyeol">uyeol</string>
+    <string name="giri_yap">giriş yap</string>
+    <string name="girisyap">girisyap</string>
+    <string name="todo">TODO</string>
+    <string name="add_post">Add Post</string>
+    <string name="urun_ekle">Ürün ekle</string>
+    <string name="urun_id">urun_id</string>
+    <string name="admin_r_n_ekleme">Admin Ürün ekleme</string>
+    <string name="a_klama">açıklama</string>
+    <string name="kategori_id">kategori_id</string>
+    <string name="urun_ismi">urun ismi</string>
+    <string name="email">Email</string>
+
+</resources>

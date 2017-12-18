@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.missgumus.mobile.missgumus5.BankaActivity">
+
+    <include
+        android:id="@+id/menu"
+        layout="@layout/activity_menubar"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        tools:layout_editor_absoluteY="26dp" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="wrap_content"
+        android:layout_height="23dp"
+        android:layout_marginTop="44dp"
+        android:text="Banka Bilgileriniz"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="61dp" />
+
+    <EditText
+        android:id="@+id/editText9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Ad Soyad"
+        android:inputType="textPersonName"
+        app:layout_constraintStart_toStartOf="@+id/textView16"
+        tools:layout_editor_absoluteY="75dp" />
+
+    <EditText
+        android:id="@+id/editText10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        app:layout_constraintStart_toStartOf="@+id/editText9"
+        tools:layout_editor_absoluteY="131dp" />
+
+    <EditText
+        android:id="@+id/editText11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Gönderilen Tutar"
+        android:inputType="number"
+        app:layout_constraintStart_toStartOf="@+id/editText10"
+        tools:layout_editor_absoluteY="192dp" />
+
+    <EditText
+        android:id="@+id/editText12"
+        android:layout_width="318dp"
+        android:layout_height="43dp"
+        android:ems="10"
+        android:hint="IBAN"
+        android:inputType="number"
+        app:layout_constraintStart_toStartOf="@+id/editText11"
+        tools:layout_editor_absoluteY="249dp" />
+
+    <Button
+        android:id="@+id/button9"
+        android:layout_width="141dp"
+        android:layout_height="49dp"
+        android:background="@android:color/background_dark"
+        android:text="ödeme yap!"
+        android:textColor="@color/backgroundColor"
+        app:layout_constraintStart_toStartOf="@+id/editText12"
+        tools:layout_editor_absoluteY="307dp" />
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="250dp"
+        android:layout_height="114dp"
+        android:layout_marginBottom="112dp"
+        android:layout_marginRight="144dp"
+        android:text="Göndereceğiniz Hesap Bilgisi       VAKIFBANK Derya Kantar Özkes TR520001500158007305822114 "
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/button9" />
+</android.support.constraint.ConstraintLayout>
